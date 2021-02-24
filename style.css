@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+.playGround{
+ width: 90%;
+ height: 90%;
+ border: 1px solid red;
+ margin: auto;
+ margin-top: 30px;
+ position: relative;
+}
