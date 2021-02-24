@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: burlywood;
+  background-color: rgb(12, 109, 170);
 }
 .title {
   width: 50%;
@@ -13,32 +13,57 @@ body {
   background-color: black;
   font-size: 80px;
   color: aquamarine;
+  border-radius: 10px;
 }
 .playGround {
   width: 80%;
   height: 80%;
-  border: 1px solid red;
   margin: auto;
   margin-top: 100px;
   border: 10px solid black;
   border-radius: 20px;
   position: relative;
+  background-image: url(../images/gamehuntd.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #cube {
-  width: 70px;
-  height: 70px;
+  width: 10%;
+  height: 10%;
   top: 10%;
   left: 10%;
   border-radius: 50%;
-  background-color: aquamarine;
+  background-color: rgb(211, 128, 20);
   position: absolute;
 }
 
 #cube.hit {
-  background-color: coral;
+  background-color: orangered;
 }
 
 #cube.safe {
-  background-color: green;
+  background-color: mediumvioletred;
+}
+.name {
+  width: 20%;
+  height: 5%;
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+  background-color: black;
+  font-size: 40px;
+  color: aquamarine;
+  border-radius: 5px;
+}
+.score {
+  width: 20%;
+  height: 5%;
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+  background-color: black;
+  font-size: 40px;
+  color: aquamarine;
+  border-radius: 5px;
 }

@@ -22,6 +22,7 @@ document.addEventListener ('keydown', function(event) {
     };
     if (posLeft < 0) {
         posLeft = 90 ;
+
     };
     cube.style.left = posLeft + '%';
 
@@ -44,3 +45,11 @@ document.addEventListener ('keydown', function(event) {
     };
     cube.style.top = posTop + '%';
 })
+
+
+
+let nbrOfPlayer = 3;
+for(nbrOfPlayer = 0; nbrOfPlayer < 3; nbrOfPlayer++){
+     const name = prompt ('ENTER YOUR NAME');    
+}
+alert('START NOW!');
