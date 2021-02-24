@@ -2,8 +2,8 @@ const cube = document.querySelector('#cube');
 cube.addEventListener('click', function(){
     cube.classList.add ('hit');
 
-    document.removeEventListener();
-    cube.removeEventListener();
+    document.removeEventListener('keydown');
+    cube.removeEventListener('click');
 
     //.write('mouse player wins')
 
@@ -13,7 +13,7 @@ cube.addEventListener('click', function(){
 const idTimer = setTimeout(function () {
    // alert('keyboard player wins')
     cube.classList.add ('safe');
-    document.removeEventListener();
-    cube.removeEventListener();
-}, 5000);
+    document.removeEventListener('keydown');
+    cube.removeEventListener('click');
+}, 30000);
 

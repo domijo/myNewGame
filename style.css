@@ -15,11 +15,12 @@
 
 
 #cube {
-  width: 100px;
-  height: 100px;
+  width: 10%;
+  height: 10%;
   top: 10%;
   left: 10%;
   background-color: aquamarine;
+  position: absolute;
 }
 
  #cube.hit{
