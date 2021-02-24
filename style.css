@@ -21,3 +21,11 @@
   left: 10%;
   background-color: aquamarine;
 }
+
+ #cube.hit{
+    background-color: coral;
+}
+
+#cube.safe{
+    background-color: green;
+}
