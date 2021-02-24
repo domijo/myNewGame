@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+#cube {
+  width: 100px;
+  height: 100px;
+  top: 10%;
+  left: 10%;
+  background-color: aquamarine;
+}
