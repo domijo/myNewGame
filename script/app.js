@@ -53,3 +53,5 @@ for(nbrOfPlayer = 0; nbrOfPlayer < 3; nbrOfPlayer++){
      const name = prompt ('ENTER YOUR NAME');    
 }
 alert('START NOW!');
+
+

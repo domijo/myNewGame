@@ -1,0 +1,17 @@
+{
+  "name": "myNewGame",
+  "short_name": "PWA",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#5900b3",
+  "theme_color": "black",
+  "scope": ".",
+  "description": "This is my duck hunt game",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "1280x1280",
+      "type": "image/png"
+    }
+  ]
+}
